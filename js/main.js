@@ -1,7 +1,7 @@
 const usedCars = require(['./usedCars-TH-1.js']);
 
 const target = document.getElementsByClassName('row');
-const htmlString = dataArray.map(usedCar => 
+const htmlString = usedCars.map(usedCar => 
   `<div class="pro-card">
     <h1>${usedCar.year} ${usedCar.make} ${usedCar.model}</h1>
     <h2>${usedCar.mileage} ${usedCar.color}</h2>
