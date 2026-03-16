@@ -1,4 +1,4 @@
-const usedCars = require('./usedCars-TH-1.js');
+const usedCars = require(['./usedCars-TH-1.js']);
 
 const target = document.getElementsByClassName('row');
 const htmlString = dataArray.map(usedCar => 
