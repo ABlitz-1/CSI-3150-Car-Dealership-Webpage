@@ -12,6 +12,7 @@
   width: 100%;
   table-layout: fixed;
   border-spacing: 10px;
+  overflow: scroll;
 }
 
 .price {
