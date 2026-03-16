@@ -11,4 +11,4 @@ const htmlString = dataArray.map(usedCar =>
   </div>
 ).join('');
 
-targetElement.innerHTML = htmlString;
+target.innerHTML = htmlString;
