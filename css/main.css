@@ -8,9 +8,9 @@
 }
 
 .row {
-  display: table;
+  display: block;
   width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
   border-spacing: 10px;
   overflow: scroll;
 }
