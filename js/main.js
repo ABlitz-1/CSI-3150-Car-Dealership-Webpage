@@ -1,4 +1,4 @@
-import usedCars from './usedCars-TH-1.js';
+import { usedCars } from './usedCars-TH-1.js';
 
 const target = document.getElementsByClassName('row');
 const htmlString = usedCars.map(usedCar => 
