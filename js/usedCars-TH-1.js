@@ -1,4 +1,4 @@
-export const usedCars = [
+const usedCars = [
   {
     year: 2018,
     make: "Toyota",
@@ -155,3 +155,5 @@ export const usedCars = [
     gasMileage: "23 mpg city, 34 mpg highway",
   },
 ];
+
+export { usedCars };
