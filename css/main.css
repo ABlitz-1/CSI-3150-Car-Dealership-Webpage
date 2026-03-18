@@ -1,12 +1,12 @@
 .header {
   border: 2px solid orange;
   font-family: Arial;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .pro-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
+  border-radius: 15%;
   max-width: 300px;
   margin: auto;
   text-align: center;
